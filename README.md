@@ -1,1 +1,1 @@
-# ML-NLP-Topic-Modeling-Arabic-Newspaper
+# ML-NLP-Arabic-Newspaper-Topic-Modeling
