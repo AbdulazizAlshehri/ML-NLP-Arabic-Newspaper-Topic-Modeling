@@ -74,17 +74,17 @@ Coherence measure was used to identify the best number of topics. It measures th
 
 
 # Comparing Steming and without stemming:
-Unlike other languages, Stemming in Arabic does not follow specific process, hence it does not produce a good result. 
-<br> below is a sample of resulted topics with stemming. <br>
+Unlike other languages, Stemming in Arabic does not follow specific process, hence it does not produce a good result.<br> 
+below is a sample of resulted topics with stemming. <br>
+
 ![Stemming](Graphs/stemming.JPG?raw=true "Stemming")<br>
+
 Although it had a higher coherence value of 0.58 than without stemming version 0.46, The results are difficult to interpret and can mean different things. such as "نسب" which could be derived from  "نسبه" or "النسب"
 
 # Results:
+From selected topics, we could easily tell the meaning of the topic. However, some of LDA topics are of the same general topic. Further words examining can tell us more if they are the same topic, or a sub category of topic.<br>
+for example topics 3, and 26 are both talking about energy. Nevertheless, the first is more related to Energy - Geopolitical, while the other is more to Energy- Economic (pricing,Markets).<br>
 ![results](Graphs/results.JPG?raw=true "results")
-<br>
-from selected topics, we could easily tell the meaning of the topic. However, some of LDA topics are of the same general topic. Further words examining can tell us more if they are the same topic, or a sub category of topic.<br>
-for example topics 3, and 26 are both talking about energy. Nevertheless, the first is more related to Energy - Geopolitical, while the other is more to Energy- Economic (pricing,Markets).
-
 
 </br>
 This project was done to fulfill SDAIA T5 Bootcamp requirements.
